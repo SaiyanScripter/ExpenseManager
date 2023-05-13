@@ -1,0 +1,92 @@
+      body {
+        font-family: 'Helvetica', sans-serif;
+        background-color: #F0F0F0;
+        padding: 20px;
+        margin: 0;
+      }
+
+      .top-bar {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .top-bar button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      .metrics-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 20px;
+        table-layout: fixed;
+        /* Set fixed table layout */
+      }
+
+      .metrics-table th,
+      .metrics-table td {
+        padding: 10px;
+        text-align: center;
+        /* Align content in the center */
+        border-bottom: 1px solid #ddd;
+        height: 40px;
+        /* Adjust the row height as needed */
+      }
+
+      .metrics-table th {
+        display: table-cell;
+        vertical-align: middle;
+        white-space: nowrap;
+        /* Prevent text wrapping */
+      }
+
+      .table-container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      .filter-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 20px;
+      }
+
+      .filter-input {
+        margin-left: 10px;
+        padding: 5px;
+      }
+
+      .filter-button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    
